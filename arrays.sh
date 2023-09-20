@@ -4,4 +4,6 @@ echo "arrays example"
 
 PERSONS=("YOGA" "NADHU" "TEST")
 
-echo "person list : ${PERSONS[0]}"
+echo "First Person information : ${PERSONS[0]}"
+
+echo "All Persons information : ${PERSONS[@]}"
