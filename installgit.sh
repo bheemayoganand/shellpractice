@@ -7,8 +7,7 @@ USERID=$(id -u)
 if[ $USERID -ne 0] //ne not equal to 
 then
     echo "Error :: Please run this script with root access"
-#else
-	#echo "Info:: you are root user"
+
 fi
 
 yum install mysql -y
