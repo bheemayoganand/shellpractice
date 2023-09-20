@@ -4,7 +4,7 @@
 
 USERID=$(id -u)
 
-if[ $USERID -ne 0] //ne not equal to 
+if[ $USERID -ne 0] 
 then
     echo "Error :: Please run this script with root access"
 
